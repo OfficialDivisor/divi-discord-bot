@@ -11,4 +11,10 @@ client.on('message', message => {
     }
 });
 
+client.on('message', message => {
+    if (message.conent === '.senddm') {
+        message.author.sendMessage("Hello, I'm just testing!");   
+    }
+});
+
 client.login(process.env.BOT_TOKEN);

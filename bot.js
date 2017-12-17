@@ -11,10 +11,8 @@ client.on('message', message => {
     }
 });
 
-client.on('message', message => {
-    if (message.content === '.senddm') {
-        message.author.sendMessage("Hello, I'm just testing!");   
-    }
+client.on("guildMemberAdd", user => {
+        message.author.sendMessage("Hello, I'm just testing!");  
 });
 
 client.login(process.env.BOT_TOKEN);

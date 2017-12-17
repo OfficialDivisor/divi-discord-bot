@@ -9,6 +9,7 @@
     "author": "Kaarel Virroja",
     "dependencies": {
         "discord.io": "^2.5.3",
+        "discord.js": "11.1.0",
         "winston": "^2.4.0"
     }
 }

@@ -12,7 +12,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.conent === '.senddm') {
+    if (message.content === '.senddm') {
         message.author.sendMessage("Hello, I'm just testing!");   
     }
 });
